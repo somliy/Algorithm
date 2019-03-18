@@ -1,4 +1,4 @@
-package LanQiao.jisuanke.Simulation_problem__2019_Group_B_1;
+package jisuanke.Simulation_problem__2019_Group_B_1;
 
 import java.math.BigInteger;
 

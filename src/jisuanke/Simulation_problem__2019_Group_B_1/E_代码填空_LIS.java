@@ -1,4 +1,4 @@
-package LanQiao.jisuanke.Simulation_problem__2019_Group_B_1;
+package jisuanke.Simulation_problem__2019_Group_B_1;
 
 import java.util.Scanner;
 
@@ -43,6 +43,9 @@ public class E_代码填空_LIS {
              * 替换： f[len-1] > a[i] （len-1是f最后一个数字）
              */
             /*--------------------------*/
+
+            int k = find(0, len, a[i]);
+            /* 不如上面的好
             int k;
             if (len == 0) {//若f数组无数字，直接添加
                 k = i;
@@ -53,6 +56,7 @@ public class E_代码填空_LIS {
                     else k = len;//添加
                 }
             }
+            */
             /*--------------------------*/
             f[k] = a[i];
             if (k == len) {

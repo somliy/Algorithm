@@ -1,4 +1,4 @@
-package LanQiao.jisuanke.Simulation_problem__2019_Group_B_1;
+package jisuanke.Simulation_problem__2019_Group_B_1;
 
 /**
  * @Auther: zhaodong
@@ -11,6 +11,8 @@ public class B_结果填空_青蛙爬井 {
          * (int)((high - up) / (up - down) + 0.9) + 1
          *
          * 除去最后一步出井， 剩下的是带有下滑的上升，出现小数要向上取整，最后加上最后一步
+         *
+         * 863
          */
         double high = 60405;
         double up = 105;
